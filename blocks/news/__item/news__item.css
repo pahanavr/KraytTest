@@ -1,0 +1,10 @@
+.news__item {
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.news__item:hover {
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+    box-shadow: 5px 5px 40px rgb(109, 107, 107);
+}

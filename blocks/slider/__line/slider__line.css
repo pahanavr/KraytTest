@@ -1,0 +1,7 @@
+.slider__line {
+    width: 160px;
+    height: 4px;
+    box-sizing: border-box;
+    background-color: #DFDFDF;
+    position: relative;
+}

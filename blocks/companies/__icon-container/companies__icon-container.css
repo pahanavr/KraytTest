@@ -1,0 +1,14 @@
+.companies__icon-container {
+    width: 100%;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 960px) {
+    .companies__icon-container {
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+}

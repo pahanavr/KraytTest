@@ -1,0 +1,18 @@
+.reviews {
+    max-width: 1395px;
+    margin: 0 0 112px 165px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 960px) {
+    .reviews {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .reviews {
+        margin-left: 5px;
+        margin-bottom: 50px;
+    }
+}

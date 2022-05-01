@@ -1,0 +1,15 @@
+.description__item-subtitle {
+    max-width: 100%;
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #9A9A9A;
+}
+
+@media screen and (max-width: 460px) {
+    .description__item-subtitle {
+        font-size: 11px;
+        line-height: 20px;
+    }
+}

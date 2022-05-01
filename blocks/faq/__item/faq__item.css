@@ -1,0 +1,7 @@
+.faq__item {
+    max-width: 350px;
+    height: 171px;
+    box-shadow: 5px 5px 20px rgba(223, 223, 223, 0.5);
+    position: relative;
+    cursor: pointer;
+}

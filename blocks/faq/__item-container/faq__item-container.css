@@ -1,0 +1,21 @@
+.faq__item-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    max-width: 1120px;
+    margin-bottom: 67px;
+}
+
+@media screen and (max-width: 860px) {
+    .faq__item-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .faq__item-container {
+        margin-bottom: 45px;
+    }
+}

@@ -1,0 +1,22 @@
+.description__info-title {
+    font-family: 'Lora';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 51px;
+    color: #FFFFFF;
+    margin: 0 0 24px 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .description__info-title {
+        font-size: 30px;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .description__info-title {
+        font-size: 30px;
+        line-height: 45px;
+    }
+}

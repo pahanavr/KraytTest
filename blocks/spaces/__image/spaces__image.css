@@ -1,0 +1,5 @@
+.spaces__image {
+    width: 100%;
+    max-height: 419px;
+    object-fit: cover;
+}

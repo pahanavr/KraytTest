@@ -1,0 +1,9 @@
+.facilities__content {
+    display: flex;
+}
+
+@media screen and (max-width: 425px) {
+    .facilities__content {
+        padding-bottom: 20px;
+    }
+}

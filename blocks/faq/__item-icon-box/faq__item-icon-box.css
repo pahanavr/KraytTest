@@ -1,0 +1,11 @@
+.faq__item-icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 48px;
+    background-color: #FF5722;
+    position: absolute;
+    left: 42%;
+    bottom: -23px;
+}

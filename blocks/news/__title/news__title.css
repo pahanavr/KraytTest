@@ -1,0 +1,16 @@
+.news__title {
+    margin: 0;
+    font-family: 'Lora';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 51px;
+    color: #10375C;
+}
+
+@media screen and (max-width: 700px) {
+    .news__title {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+}

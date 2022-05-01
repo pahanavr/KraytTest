@@ -1,0 +1,19 @@
+.hero__buttons{
+    display: flex;
+    height: 43px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .hero__buttons {
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hero__buttons {
+        height: 25px;
+    }
+}

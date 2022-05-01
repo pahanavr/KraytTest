@@ -1,0 +1,14 @@
+.companies__link {
+    display: flex;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 960px) {
+    .companies__link {
+        margin-bottom: 25px;
+    }
+    .companies__link:last-of-type {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,25 @@
+.gallery__title {
+    max-width: 490px;
+    font-family: 'Lora';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 51px;
+    color: #10375C;
+    margin: 0 0 38px;
+}
+
+@media screen and (max-width: 930px) {
+    .gallery__title {
+        max-width: 400px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .gallery__title {
+        max-width: 250px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+}

@@ -1,0 +1,13 @@
+.description__item {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    column-gap: 24px;
+    align-items: start;
+}
+
+@media screen and (max-width: 425px) {
+    .description__item {
+        column-gap: 10px;
+    }
+}

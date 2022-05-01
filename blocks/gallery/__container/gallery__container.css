@@ -1,0 +1,24 @@
+.gallery__container {
+    width: 1585px;
+    display: grid;
+    grid-template-columns: 350px 445px 2fr;
+    grid-template-rows: 606px;
+    column-gap: 30px;
+    margin-bottom: 112px;
+    margin-left: -120px;
+    margin-right: -25px;
+}
+
+@media screen and (max-width: 1280px) {
+    .gallery__container {
+        margin-left: -400px;
+        margin-right: -100px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .gallery__container {
+        margin-right: 0px;
+    }
+}
+

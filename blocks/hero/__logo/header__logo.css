@@ -1,0 +1,24 @@
+.hero__logo {
+    width: 89px;
+    height: 32px;
+    cursor: pointer;
+    margin-right: 184px;
+}
+
+.hero__logo:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 1180px) {
+    .hero__logo {
+        margin-right: 80px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .hero__logo {
+        width: 70px;
+        height: 25px;
+        margin-right: 0px;
+    }
+}

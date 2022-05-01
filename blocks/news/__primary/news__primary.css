@@ -1,0 +1,21 @@
+.news__primary {
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.news__primary:hover {
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+    box-shadow: 5px 5px 40px rgb(109, 107, 107);
+}
+
+@media screen and (max-width: 800px) {
+    .news__primary {
+        max-width: 380px;
+        display: flex;
+        flex-direction: column;
+    }
+}

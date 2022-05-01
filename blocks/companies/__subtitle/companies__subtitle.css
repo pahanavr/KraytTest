@@ -1,0 +1,21 @@
+.companies__subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    color: #9A9A9A;
+    margin: 0 0 56px 0;
+}
+
+@media screen and (max-width: 960px) {
+    .companies__subtitle {
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .companies__subtitle {
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+}

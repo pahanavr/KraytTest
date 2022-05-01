@@ -1,0 +1,24 @@
+.hero__menu-link {
+    font-size: 16px;
+    line-height: 1.75;
+    font-weight: 700;
+    text-decoration: none;
+    color: #222831;
+}
+
+.hero__menu-link:hover {
+    color: #FF5722;
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+@media screen and (max-width: 500px) {
+    .hero__menu-link {
+        font-size: 12px;
+        line-height: 1.25;
+        margin-bottom: 10px;
+    }
+    .hero__menu-link:last-of-type {
+        margin-bottom: 0;
+    }
+}

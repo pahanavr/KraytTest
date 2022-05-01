@@ -1,0 +1,7 @@
+.section-buttons__button_type_left {
+    background-image: url(../../../../images/left_arrow.svg);
+}
+
+.section-buttons__button_type_left:hover {
+    background-image: url(../../../../images/left_arrow_active.svg);
+}

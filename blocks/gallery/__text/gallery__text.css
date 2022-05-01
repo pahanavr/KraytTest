@@ -1,0 +1,11 @@
+.gallery__text {
+    min-height: 200px;
+    padding-left: 44px;
+    margin-bottom: 51px;
+}
+
+@media screen and (max-width: 970px) {
+    .gallery__text {
+        padding-left: 0;
+    }
+}

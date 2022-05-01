@@ -1,0 +1,21 @@
+.news {
+    width: 100%;
+    background-color: #F8F8F8;
+    padding: 60px 165px 96px;
+    box-sizing: border-box;
+    outline: 1px red solid;
+}
+
+@media screen and (max-width: 1380px) {
+    .news {
+        padding: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .news {
+        padding: 25px;
+    }
+}

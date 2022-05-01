@@ -1,0 +1,8 @@
+.spaces__item_active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 144px;
+    box-sizing: border-box;
+    background-color: #10375C;
+}

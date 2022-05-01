@@ -1,0 +1,23 @@
+.faq__title {
+    max-width: 578px;
+    font-family: 'Lora';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 51px;
+    text-align: center;
+    margin: 0 0 54px 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .faq__title {
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .faq__title {
+        font-size: 30px;
+        line-height: 1;
+        margin-bottom: 15px;
+    }
+}

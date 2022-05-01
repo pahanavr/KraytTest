@@ -1,0 +1,12 @@
+.faq__item-title {
+    max-width: 270px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+    padding: 42px 40px 0 40px;
+    margin: 0;
+}

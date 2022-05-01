@@ -1,0 +1,7 @@
+.slider__line-part {
+    width: 25%;
+    height: 100%;
+    background-color: #DD2C00;
+    position: absolute;
+    margin: 0;
+}

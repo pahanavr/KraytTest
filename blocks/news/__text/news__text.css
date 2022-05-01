@@ -1,0 +1,14 @@
+.news__text {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 56px;
+}
+
+@media screen and (max-width: 920px) {
+    .news__text {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+}

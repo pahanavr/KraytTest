@@ -1,0 +1,33 @@
+.facilities__element {
+    box-sizing: border-box;
+    padding-left: 24px;
+    padding-top: 24px;
+    height: 100%;
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #222831;
+    cursor: pointer;
+}
+
+.facilities__element:hover {
+    background-color: #ff5722;
+    box-shadow: 5px 5px 20px #ff5722;
+    color: #fff;
+    transform: translate(-5px, -5px);
+    transition: 0.6s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    .facilities__element {
+        font-size: 12px;
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .facilities__element {
+        font-size: 10px;
+    }
+}

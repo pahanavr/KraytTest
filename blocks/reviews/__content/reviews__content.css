@@ -1,0 +1,8 @@
+.reviews__content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 393px;
+    column-gap: 30px;
+    margin-bottom: 32px;
+}

@@ -1,0 +1,15 @@
+.reviews__card-text {
+    max-width: 365px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #FFF;
+    margin: 0;
+}
+
+@media screen and (max-width: 400px) {
+    .reviews__card-text {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+}

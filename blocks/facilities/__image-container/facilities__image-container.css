@@ -1,0 +1,5 @@
+.facilities__image-container {
+    max-width: 729px;
+    max-height: 453px;
+    object-fit: contain;
+}

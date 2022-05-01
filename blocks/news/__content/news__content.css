@@ -1,0 +1,24 @@
+.news__content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1380px) {
+    .news__content {
+        max-width: 730px;
+        grid-template-columns: repeat(2, 350px);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .news__content {
+        max-width: 380px;
+        display: flex;
+        flex-direction: column;
+    }
+}

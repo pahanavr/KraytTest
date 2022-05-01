@@ -1,0 +1,20 @@
+.companies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1175px;
+    margin: 0 auto 112px;
+    outline: 1px red solid;
+}
+
+@media screen and (max-width: 1190px) {
+    .companies {
+        width: calc(100% - 15px * 2);
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .companies {
+        margin-bottom: 50px;
+    }
+}

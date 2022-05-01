@@ -1,0 +1,5 @@
+.footer__menu-content {
+    max-width: 212px;
+    display: flex;
+    flex-direction: column;
+}

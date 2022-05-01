@@ -1,0 +1,15 @@
+.spaces__title {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 51px;
+    color: #10375C;
+    margin: 0;
+}
+
+@media screen and (max-width: 920px) {
+    .spaces__title {
+        margin-bottom: 25px;
+    }
+}

@@ -1,0 +1,30 @@
+.description__items {
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 64px;
+    column-gap: 117px;
+    margin-right: 71px;
+}
+
+@media screen and (max-width: 960px) {
+    .description__items {
+        row-gap: 45px;
+        column-gap: 50px;
+        margin-right: 35px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .description__items {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .description__items {
+        row-gap: 20px;
+        column-gap: 15px;
+    }
+}

@@ -1,0 +1,25 @@
+.footer__menu-item {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+}
+
+.footer__menu-item:last-of-type {
+    margin-bottom: 0;
+}
+
+.footer__menu-item:hover {
+    color: #FF5722;
+    transform: translate(5px);
+    transition: 0.3s ease;
+}
+
+@media screen and (max-width: 920px) {
+    .footer__menu-item {
+        font-size: 13px;
+        line-height: 1.25;
+    }
+}

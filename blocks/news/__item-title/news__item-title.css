@@ -1,0 +1,9 @@
+.news__item-title {
+    max-width: 318px;
+    font-family: 'Lora';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #222831;
+    margin: 0 auto 4px;
+}

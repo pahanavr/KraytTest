@@ -1,0 +1,12 @@
+.description__info {
+    max-width: 540px;
+    padding: 54px;
+    box-sizing: border-box;
+    background-color: #10375C;
+}
+
+@media screen and (max-width: 800px) {
+    .description__info {
+        padding: 20px;
+    }
+}

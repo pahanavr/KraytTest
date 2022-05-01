@@ -1,0 +1,24 @@
+.hero {
+    max-width: 1110px;;
+    margin: 0 auto 112px;
+    position: relative;
+    outline: 1px red solid;
+}
+
+@media screen and (max-width: 1280px) {
+    .hero {
+        max-width: calc(100% - 30px * 2);
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .hero {
+        margin-bottom: 75px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hero {
+        margin-bottom: 50px;
+    }
+}

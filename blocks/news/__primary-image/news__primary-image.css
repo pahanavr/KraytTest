@@ -1,0 +1,5 @@
+.news__primary-image {
+    max-width: 350px;
+    max-height: 320px;
+    object-fit: cover;
+}

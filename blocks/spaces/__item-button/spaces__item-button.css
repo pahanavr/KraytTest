@@ -1,0 +1,21 @@
+.spaces__item-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 72px;
+    height: 72px;
+    background-color: #FF5722;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 960px) {
+    .spaces__item-button {
+        width: 50px;
+        height: 50px;
+    }
+}

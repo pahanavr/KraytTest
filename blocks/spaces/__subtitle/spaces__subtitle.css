@@ -1,0 +1,15 @@
+.spaces__subtitle {
+    max-width: 452px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    color: #9A9A9A;
+    margin: 0;
+}
+
+@media screen and (max-width: 920px) {
+    .spaces__subtitle {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+}

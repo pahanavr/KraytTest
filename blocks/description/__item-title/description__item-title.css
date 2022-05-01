@@ -1,0 +1,16 @@
+.description__item-title {
+    max-width: 100%;
+    margin: 0 0 8px 0;
+    font-family: 'Lora', 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    color: #10375C;
+}
+
+@media screen and (max-width: 460px) {
+    .description__item-title {
+        font-size: 20px;
+        line-height: 1;
+    }
+}

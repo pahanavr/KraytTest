@@ -1,0 +1,14 @@
+.spaces__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 920px) {
+    .spaces__header {
+        flex-direction: column;
+    }
+}

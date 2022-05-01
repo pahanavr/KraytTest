@@ -1,0 +1,11 @@
+.spaces__item-button_active {
+    width: 255px;
+    left: 0;
+    bottom: 0;
+}
+
+@media screen and (max-width: 960px) {
+    .spaces__item-button_active {
+        width: 220px;
+    }
+}

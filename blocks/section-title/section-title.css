@@ -1,0 +1,16 @@
+.section-title {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #222831;
+    margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+    .section-title {
+        font-size: 15px;
+        line-height: 1.2;
+    }
+}

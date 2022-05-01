@@ -1,0 +1,13 @@
+.section-buttons__button {
+    width: 53px;
+    height: 27px;
+    border: 0;
+    padding: 0;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.section-buttons__button:hover {
+    width: 92px;
+    transition: 0.2s ease;
+}

@@ -1,0 +1,23 @@
+.hero__header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 0 56px;
+    max-width: 835px;
+    height: 43px;
+}
+
+@media screen and (max-width: 840px) {
+    .hero__header {
+        height: 100%;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hero__header {
+        margin-bottom: 30px;
+    }
+}

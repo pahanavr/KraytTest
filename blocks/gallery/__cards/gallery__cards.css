@@ -1,0 +1,7 @@
+.gallery__cards {
+    max-width: 730px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(250px, 350px);
+    column-gap: 30px;
+}
