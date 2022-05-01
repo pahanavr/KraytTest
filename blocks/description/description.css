@@ -2,7 +2,6 @@
     display: flex;
     margin-bottom: 112px;
     margin: 0 165px 112px;
-    outline: 1px red solid;
 }
 
 @media screen and (max-width: 1280px) {
